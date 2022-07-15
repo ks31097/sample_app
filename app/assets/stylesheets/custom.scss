@@ -1,9 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* universal */
+/* mixins, variables, etc. */
 $gray-medium-light: #eaeaea;
 
+/* universal */
 body {
   padding-top: 60px;
 }
@@ -22,8 +23,8 @@ textarea {
     margin-bottom: 10px;
   }
 }
-/* typography */
 
+/* typography */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
@@ -50,7 +51,6 @@ p {
 }
 
 /* header */
-
 #logo {
   float: left;
   margin-right: 10px;
@@ -67,7 +67,6 @@ p {
 }
 
 /* footer */
-
 footer {
   margin-top: 45px;
   padding-top: 5px;
