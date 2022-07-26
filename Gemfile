@@ -13,6 +13,8 @@ gem "turbo-rails",     "1.1.1"
 gem "stimulus-rails",  "1.0.4"
 gem "jbuilder",        "2.11.5"
 gem "redis",           "4.7.1"
+gem "jquery-rails",    "4.5.0"
+gem "popper_js",       "2.11.5"
 gem "bootsnap",        "1.12.0", require: false
 
 group :development, :test do
